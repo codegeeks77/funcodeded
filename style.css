@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    
+background-color: yellow;
+margin: 0 50px;
+}
+.navbar{
+    padding: 10px;
+    background-color: aqua;
+    position: relative;
+}
+.head{
+    position: relative;
+}
+
+.item{
+    text-align: center;
+    display: inline;
+    padding: 10px;
+    margin-top: auto;
+    color: blue;
+}
+.list_item{
+    width:50%
+}
+.search{
+ float: right;
+
+}
+.content{
+    position: relative;
+ margin :0 auto;
+    top: 15%;
+    background-color: aquamarine;
+    height: 50%;
+    width: 70%;
+}
+.content-html{
+    position: relative;
+text-align: center;
+top: 50%;
+font-size: 35px;
+
+}
+.text-field{
+    position: relative;
+    top: 15%;
+
+  
+
+}
+.text{
+   margin: 10px;
+   padding: 5px;
+}
+button{  margin: 10px;
+    padding: 5px;}
+
+@media screen and (max-width:480px) {
+   
+    .navbar{
+        display: none;
+       
+    }
+
+   
+
+    .container{
+        margin: 0;
+        background-color: black;
+    }
+   .text-field-input{
+    width: 60%;
+   text-align: center;
+    margin: 0 auto;
+   }
+   .btn-input{
+    width: 60%;
+    text-align: center;
+     margin: 0 auto;
+   }
+
+   .text{
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+ }
+ button{  margin: 10px;
+     padding: 10px;
+     border: 2px solid black;
+     border-radius: 5px;
+     font-size: 16px
+}
+
+
+}
